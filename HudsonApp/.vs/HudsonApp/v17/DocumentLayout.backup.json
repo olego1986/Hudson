@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Hudson\\HudsonApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\_callback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\home\\_callback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -104,7 +104,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -180,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -193,13 +193,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_callback.cshtml",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Home\\_callback.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\_callback.cshtml",
               "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Home\\_callback.cshtml",
               "RelativeToolTip": "Views\\Home\\_callback.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T09:39:20.516Z",
               "EditorCaption": ""
@@ -303,15 +303,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.js",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\wwwroot\\js\\main.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\main.js",
               "ToolTip": "D:\\Hudson\\HudsonApp\\wwwroot\\js\\main.js",
               "RelativeToolTip": "wwwroot\\js\\main.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-28T15:51:06.913Z"
+              "WhenOpened": "2025-01-28T15:51:06.913Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
