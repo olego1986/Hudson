@@ -1,0 +1,14 @@
+﻿@model HudsonApp.Models.HomeViewModel
+
+@{
+     ViewBag.Title = "title";
+     Layout = "_Layout";
+}
+
+<div id="socialmediaId">
+    @await Html.PartialAsync("~/Views/Home/_socialMedia.cshtml", Model.SocialMedia)
+</div>
+
+<div id="callbackId">
+    @await Html.PartialAsync("~/Views/Home/_callback.cshtml", Model.CallbackViewModel)
+</div>

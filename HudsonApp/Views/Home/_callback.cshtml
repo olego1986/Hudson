@@ -1,0 +1,54 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+@model HudsonApp.Models.CallbackViewModel
+
+@{
+    var prefix = Configuration.GetSection("Constants").GetValue(typeof(string), "PhonePrefix").ToString();
+}
+<div class="callbackWrapper">
+    <div class="buttons">
+        <button id="callbackButton">
+            Замовити дзвінок
+        </button>
+    </div>
+    <div id="callbackModal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <span class="close-btn">&times;</span>
+                <form asp-action="Callback" asp-controller="Home" method="post">
+                    <h3>Замовити дзвінок</h3>
+                    <label for="name">Вашe ім'я:</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Введіть як до Вас звертатися" id="name" name="name" value="@Model.Name" />
+                    </div>
+                    <label for="phoneNumber">Ваш номер телефону:</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@prefix</span>
+                        </div>
+                        <input type="tel" class="form-control" placeholder="Ваш номер телефону" id="phoneNumber" name="phoneNumber" value="@Model.PhoneNumber" />
+                    </div>
+                    @Html.ValidationMessageFor(m => m.PhoneNumber, null, new { @class = "text-danger" })
+                    <span style="color: red;">@Html.ValidationMessageFor(m => m.PhoneNumber)</span>
+                    <br><br>
+                    <button type="submit">Відправити</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <p style="color: green;">@TempData["SuccessMessage"]</p>
+    }
+    else if (TempData["ErrorMessage"] != null)
+    {
+        <p style="color: red;">@TempData["ErrorMessage"]</p>
+    }
+</div>
+
+<script type="text/javascript">
+    jQuery(function($){
+        $("#phoneNumber").mask("(999)999-99-99");
+    });
+</script>
