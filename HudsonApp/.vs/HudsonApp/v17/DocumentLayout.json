@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Hudson\\HudsonApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\_callback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\home\\_callback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -104,7 +104,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -176,31 +176,30 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAYwDkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T09:19:46.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:19:46.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwCwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T09:16:51.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "_callback.cshtml",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Home\\_callback.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\_callback.cshtml",
               "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Home\\_callback.cshtml",
               "RelativeToolTip": "Views\\Home\\_callback.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T09:39:20.516Z",
               "EditorCaption": ""
@@ -215,8 +214,7 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:24:07.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:24:07.78Z"
             },
             {
               "$type": "Document",
@@ -228,8 +226,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:16:40.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:16:40.864Z"
             },
             {
               "$type": "Document",
@@ -241,8 +238,7 @@
               "RelativeToolTip": "Views\\Home\\Home.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:16:18.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:16:18.936Z"
             },
             {
               "$type": "Document",
@@ -267,8 +263,7 @@
               "RelativeToolTip": "DTO\\TelegramSendMessageBody.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T13:19:27.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T13:19:27.119Z"
             },
             {
               "$type": "Document",
@@ -280,8 +275,7 @@
               "RelativeToolTip": "wwwroot\\css\\main.css",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-27T09:25:26.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:25:26.295Z"
             },
             {
               "$type": "Document",
@@ -293,8 +287,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAIAAAAAAAAAAAAkwAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-27T09:29:58.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:29:58.106Z"
             },
             {
               "$type": "Document",
@@ -306,18 +299,17 @@
               "RelativeToolTip": "Views\\Home\\_socialMedia.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T22:45:26.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T22:45:26.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.js",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\wwwroot\\js\\main.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\main.js",
               "ToolTip": "D:\\Hudson\\HudsonApp\\wwwroot\\js\\main.js",
               "RelativeToolTip": "wwwroot\\js\\main.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-01-28T15:51:06.913Z",
               "EditorCaption": ""
@@ -332,8 +324,7 @@
               "RelativeToolTip": "Constants\\ApplicationConstant.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T16:15:39.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T16:15:39.732Z"
             },
             {
               "$type": "Document",
@@ -345,8 +336,7 @@
               "RelativeToolTip": "Models\\HomeViewModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAD4vxcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T13:28:04.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T13:28:04.324Z"
             },
             {
               "$type": "Document",
@@ -358,8 +348,7 @@
               "RelativeToolTip": "wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-27T13:33:02.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T13:33:02.89Z"
             },
             {
               "$type": "Document",
@@ -371,8 +360,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-28T12:39:28.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T12:39:28.296Z"
             },
             {
               "$type": "Document",
@@ -384,8 +372,7 @@
               "RelativeToolTip": "Extensions\\HtmlHelperExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T23:25:24.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T23:25:24.883Z"
             },
             {
               "$type": "Document",
@@ -395,8 +382,7 @@
               "ToolTip": "C:\\Users\\olego\\AppData\\Local\\SourceServer\\3422d537e54029774b452f2ed0ced5f4c1a79a54227ff8d42c9034ebd8a14ce7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
               "ViewState": "AgIAAA8BAAAAAAAAAAAiwCIBAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T22:38:07.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T22:38:07.974Z"
             },
             {
               "$type": "Document",
@@ -419,8 +405,7 @@
               "RelativeToolTip": "DTO\\TelegramGetUpdatesResponse.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAcwEcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T12:38:40.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T12:38:40.195Z"
             },
             {
               "$type": "Document",
@@ -432,8 +417,7 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:29:55.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:29:55.415Z"
             },
             {
               "$type": "Document",
@@ -445,8 +429,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:29:50.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:29:50.557Z"
             },
             {
               "$type": "Document",
@@ -458,8 +441,7 @@
               "RelativeToolTip": "Interfaces\\IApi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T10:10:28.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T10:10:28.653Z"
             },
             {
               "$type": "Document",
@@ -471,8 +453,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAkAAAAAAAAAAAAuwB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-27T09:32:17.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:32:17.413Z"
             }
           ]
         }

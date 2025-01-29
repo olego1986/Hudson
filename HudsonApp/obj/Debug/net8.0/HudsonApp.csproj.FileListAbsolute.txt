@@ -240,3 +240,4 @@ D:\Hudson\HudsonApp\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
 D:\Hudson\HudsonApp\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
 D:\Hudson\HudsonApp\bin\Debug\net8.0\System.Web.WebPages.dll
 D:\Hudson\HudsonApp\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+D:\Hudson\HudsonApp\obj\Debug\net8.0\HudsonApp.sourcelink.json
