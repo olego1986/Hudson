@@ -1,4 +1,5 @@
 using HudsonApp.Interfaces;
+using Microsoft.AspNetCore.Builder;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
@@ -33,10 +34,33 @@ namespace HudsonApp
             app.UseRouting();
 
             app.UseAuthorization();
-            
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Home}/{id?}");
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Home}");
+                endpoints.MapControllerRoute(
+                    name: "contact",
+                    defaults:new {controller = "Home", action = "Contacts"},
+                    pattern: "/contacts");
+                endpoints.MapControllerRoute(
+                    name: "contact",
+                    defaults: new { controller = "Home", action = "Services" },
+                    pattern: "/services");
+                endpoints.MapControllerRoute(
+                    name: "details",
+                    defaults: new { controller = "Home", action = "Details" },
+                    pattern: "/details");
+                endpoints.MapControllerRoute(
+                    name: "usa",
+                    defaults: new { controller = "Home", action = "CarUsa" },
+                    pattern: "/usa-cars");
+                endpoints.MapControllerRoute(
+                    name: "europe",
+                    defaults: new { controller = "Home", action = "CarEurope" },
+                    pattern: "/europe-cars");
+            });
 
             app.Run();
         }

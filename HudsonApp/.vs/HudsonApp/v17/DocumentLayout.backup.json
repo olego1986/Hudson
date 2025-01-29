@@ -3,24 +3,72 @@
   "WorkspaceRootPath": "D:\\Hudson\\HudsonApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\_callback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\home\\_callback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\enums\\callbacktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:enums\\callbacktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\home\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\extensions\\commonextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:extensions\\commonextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\models\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:models\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\carusa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\home\\carusa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\careurope.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\home\\careurope.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\home\\_socialmedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,14 +79,6 @@
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:dto\\telegramsendmessagebody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -47,28 +87,12 @@
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:constants\\applicationconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|d:\\hudson\\hudsonapp\\extensions\\htmlhelperextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E438ABDE-0E23-4623-8B67-17674D71F423}|HudsonApp.csproj|solutionrelative:extensions\\htmlhelperextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\olego\\AppData\\Local\\SourceServer\\3422d537e54029774b452f2ed0ced5f4c1a79a54227ff8d42c9034ebd8a14ce7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -104,7 +128,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -168,25 +192,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Hudson\\HudsonApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAYwDkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T09:19:46.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCgAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T09:16:51.54Z",
               "EditorCaption": ""
@@ -199,14 +211,14 @@
               "RelativeDocumentMoniker": "Views\\Home\\_callback.cshtml",
               "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Home\\_callback.cshtml",
               "RelativeToolTip": "Views\\Home\\_callback.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAawEMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T09:39:20.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -214,19 +226,8 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:24:07.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:16:40.864Z"
+              "WhenOpened": "2025-01-27T09:24:07.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -236,26 +237,27 @@
               "RelativeDocumentMoniker": "Views\\Home\\Home.cshtml",
               "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Home\\Home.cshtml",
               "RelativeToolTip": "Views\\Home\\Home.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAACTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:16:18.936Z"
+              "WhenOpened": "2025-01-27T09:16:18.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "D:\\Hudson\\HudsonApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAhwAgAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAMwEAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T09:12:55.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "TelegramSendMessageBody.cs",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\DTO\\TelegramSendMessageBody.cs",
               "RelativeDocumentMoniker": "DTO\\TelegramSendMessageBody.cs",
@@ -267,19 +269,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "main.css",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\wwwroot\\css\\main.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\main.css",
               "ToolTip": "D:\\Hudson\\HudsonApp\\wwwroot\\css\\main.css",
               "RelativeToolTip": "wwwroot\\css\\main.css",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-27T09:25:26.295Z"
+              "WhenOpened": "2025-01-27T09:25:26.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Models\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModel.cs",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\Models\\HomeViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAjwBsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:28:04.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.js",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\main.js",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "wwwroot\\js\\main.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-28T15:51:06.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CommonExtension.cs",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Extensions\\CommonExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\CommonExtension.cs",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\Extensions\\CommonExtension.cs",
+              "RelativeToolTip": "Extensions\\CommonExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:25:24.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CallbackType.cs",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Enums\\CallbackType.cs",
+              "RelativeDocumentMoniker": "Enums\\CallbackType.cs",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\Enums\\CallbackType.cs",
+              "RelativeToolTip": "Enums\\CallbackType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:25:04.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Home\\Services.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Services.cshtml",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Home\\Services.cshtml",
+              "RelativeToolTip": "Views\\Home\\Services.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T11:23:03.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwDQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:19:46.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Contacts.cshtml",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Home\\Contacts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contacts.cshtml",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Home\\Contacts.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contacts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T11:24:05.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceViewModel.cs",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Models\\ServiceViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ServiceViewModel.cs",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\Models\\ServiceViewModel.cs",
+              "RelativeToolTip": "Models\\ServiceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:42:04.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T13:22:47.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CarUsa.cshtml",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Home\\CarUsa.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CarUsa.cshtml",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Home\\CarUsa.cshtml",
+              "RelativeToolTip": "Views\\Home\\CarUsa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T13:16:42.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CarEurope.cshtml",
+              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Home\\CarEurope.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CarEurope.cshtml",
+              "ToolTip": "D:\\Hudson\\HudsonApp\\Views\\Home\\CarEurope.cshtml",
+              "RelativeToolTip": "Views\\Home\\CarEurope.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T13:17:43.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -291,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "_socialMedia.cshtml",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Home\\_socialMedia.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\_socialMedia.cshtml",
@@ -303,20 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.js",
-              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\wwwroot\\js\\main.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\main.js",
-              "ToolTip": "D:\\Hudson\\HudsonApp\\wwwroot\\js\\main.js",
-              "RelativeToolTip": "wwwroot\\js\\main.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-28T15:51:06.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "ApplicationConstant.cs",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Constants\\ApplicationConstant.cs",
               "RelativeDocumentMoniker": "Constants\\ApplicationConstant.cs",
@@ -328,19 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Models\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\HomeViewModel.cs",
-              "ToolTip": "D:\\Hudson\\HudsonApp\\Models\\HomeViewModel.cs",
-              "RelativeToolTip": "Models\\HomeViewModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAD4vxcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T13:28:04.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "site.js",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -352,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
@@ -364,19 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HtmlHelperExtension.cs",
-              "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Extensions\\HtmlHelperExtension.cs",
-              "RelativeDocumentMoniker": "Extensions\\HtmlHelperExtension.cs",
-              "ToolTip": "D:\\Hudson\\HudsonApp\\Extensions\\HtmlHelperExtension.cs",
-              "RelativeToolTip": "Extensions\\HtmlHelperExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T23:25:24.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "AsyncTaskMethodBuilderT.cs",
               "DocumentMoniker": "C:\\Users\\olego\\AppData\\Local\\SourceServer\\3422d537e54029774b452f2ed0ced5f4c1a79a54227ff8d42c9034ebd8a14ce7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
               "ToolTip": "C:\\Users\\olego\\AppData\\Local\\SourceServer\\3422d537e54029774b452f2ed0ced5f4c1a79a54227ff8d42c9034ebd8a14ce7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
@@ -386,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "ExecutionContext.cs",
               "DocumentMoniker": "C:\\Users\\olego\\AppData\\Local\\SourceServer\\5594699f094f357f9c20671a869273db9830ffdbbebff8f805dd2bffeff1452d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\ExecutionContext.cs",
               "ToolTip": "C:\\Users\\olego\\AppData\\Local\\SourceServer\\5594699f094f357f9c20671a869273db9830ffdbbebff8f805dd2bffeff1452d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\ExecutionContext.cs [Read Only]",
@@ -397,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "TelegramGetUpdatesResponse.cs",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\DTO\\TelegramGetUpdatesResponse.cs",
               "RelativeDocumentMoniker": "DTO\\TelegramGetUpdatesResponse.cs",
@@ -409,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -421,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -433,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "IApi.cs",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Interfaces\\IApi.cs",
               "RelativeDocumentMoniker": "Interfaces\\IApi.cs",
@@ -445,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Hudson\\HudsonApp\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",

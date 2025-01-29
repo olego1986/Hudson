@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HudsonApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+379c01555d204ca60655ad75c34c2de95b225de1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d7af5289bf58e5241f928fc545100602419c15a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HudsonApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HudsonApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

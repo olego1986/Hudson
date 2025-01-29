@@ -37,25 +37,39 @@
             </div>
         </div>
     </div> *@
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Launch demo modal
-    </button>
+    @* <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#callbackModal">
+        Запис
+    </button> *@
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <form asp-action="Callback" asp-controller="Home" method="post">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Замовити дзвінок</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <label for="name">Вашe ім'я:</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Введіть як до Вас звертатися" id="name" name="name" value="@Model.Name" />
+                        </div>
+                        <label for="phoneNumber">Ваш номер телефону:</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@prefix</span>
+                            </div>
+                            <input type="tel" class="form-control" placeholder="Ваш номер телефону" id="phoneNumber" name="phoneNumber" value="@Model.PhoneNumber" />
+                        </div>
+                        @* @Html.ValidationMessageFor(m => m.PhoneNumber, null, new { @class = "text-danger" })
+                        <span style="color: red;">@Html.ValidationMessageFor(m => m.PhoneNumber)</span> *@
+                        <input type="hidden" class="form-control" id="callbackType" name="callbackType" value="@Model.CallbackType" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Записатись</button>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    ...TTTT
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 

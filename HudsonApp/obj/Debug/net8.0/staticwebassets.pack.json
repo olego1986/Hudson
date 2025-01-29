@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\HudsonApp.ks5wuk0qje.bundle.scp.css"
     },
     {
+      "Id": "D:\\Hudson\\HudsonApp\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
       "Id": "D:\\Hudson\\HudsonApp\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
     },

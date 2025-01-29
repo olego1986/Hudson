@@ -1,4 +1,4 @@
-﻿form {
+﻿/*form {
   max-width: 400px;
   margin: 20px auto;
   padding: 10px;
@@ -29,7 +29,7 @@ button {
 
 button:hover {
   background-color: #0056b3;
-}
+}*/
 
 /*.social-icons > a{
     text-decoration: none;
@@ -68,7 +68,7 @@ button:hover {
     color: #333;
 }*/
 
-footer{
+/*footer{
     position: absolute;
     bottom: 0px;
-}
+}*/

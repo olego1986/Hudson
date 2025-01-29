@@ -6,8 +6,6 @@
 //    });
 
 $(document).ready(function () {
-    //$("#myInput").on('shown.bs.modal', showPopup);
-
     // Відкрити modal
     //function showPopup() {
     //    $('#myModal').modal('show');
@@ -28,4 +26,10 @@ $(document).ready(function () {
     //    }
     //});
 
+    $(".callback-btn").on('click', function () {
+        debugger;
+        var callbackType = $(this).attr("callbackType");
+        debugger;
+        $("#callbackType").val(callbackType);
+    });
 });

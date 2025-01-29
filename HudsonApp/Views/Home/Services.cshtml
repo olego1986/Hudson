@@ -1,0 +1,117 @@
+﻿@using HudsonApp.Enums
+@model ServiceViewModel
+
+@{
+    ViewBag.Title = "Послуги";
+    Layout = "_Layout";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Діагностика
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <ul>
+                    <li>Повна діагностика авто</li>
+                    <li>Діагностика ходової</li>
+                    <li>Діагностика кузова</li>
+                    <li>Діагностика електрониих блоків управління (ЕБУ)</li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-primary callback-btn" data-bs-toggle="modal" data-bs-target="#callbackModal" callbackType="@CallbackType.Diagnostic">
+                Запис на діагностику
+            </button>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ТО автомобіля
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <ul>
+                    <li>Повна ТО автомібіля</li>
+                    <li>Заміна фільтрів</li>
+                    <li>Заміна мастила в двигуні</li>
+                    <li>Заміна мастила В КПП</li>
+                    <li>Заміна мастила В редукторі(ах)</li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-primary callback-btn" data-bs-toggle="modal" data-bs-target="#callbackModal" callbackType="@CallbackType.Service">
+                Запис на ТО
+            </button>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed callback-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Двигун
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <ul>
+                    <li>Заміна ременя ГРМ</li>
+                    <li>Заміна подушки двигуна</li>
+                    <li>Заміна свічок запалювання</li>
+                    <li>Заміна ремня генератора</li>
+                    <li>Заміна мастила В редукторі(ах)</li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-primary callback-btn" data-bs-toggle="modal" data-bs-target="#callbackModal" callbackType="@CallbackType.Engine">
+                Запис на ремонт двигуна
+            </button>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Додаткова обробка автомобіля
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <ul>
+                    <li>Антикорозійна обробка автомобіля</li>
+                    <li>Обезшумлення автомобіля</li>
+                    <li>Тонування автомобіля</li>
+                    <li>Поклейка плівки</li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-primary callback-btn" data-bs-toggle="modal" data-bs-target="#callbackModal" callbackType="@CallbackType.Additional">
+                Запис на додактову обробку
+            </button>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Додаткове встановлення обладнання
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <ul>
+                    <li>Встановлення сигналізації</li>
+                    <li>Встановлення ЦЗ</li>
+                    <li>Встановлення заводських додаткових опцій(лише VAG)</li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-primary callback-btn" data-bs-toggle="modal" data-bs-target="#callbackModal" callbackType="@CallbackType.Install">
+                Запис на додактове встановлення
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="callbackId">
+    @await Html.PartialAsync("~/Views/Home/_callback.cshtml", Model.CallbackViewModel)
+</div>

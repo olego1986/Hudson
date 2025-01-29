@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using HudsonApp.Enums;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace HudsonApp.Models
@@ -22,6 +23,9 @@ namespace HudsonApp.Models
 
         [ValidateNever]
         public string Name { get; set; }
+
+        [ValidateNever]
+        public string CallbackType { get; set; }
     }
 
     public class HomeViewModel
