@@ -188,8 +188,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAQwCgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:16:51.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:16:51.54Z"
             },
             {
               "$type": "Document",
@@ -201,8 +200,7 @@
               "RelativeToolTip": "Views\\Home\\_callback.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:39:20.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:39:20.516Z"
             },
             {
               "$type": "Document",
@@ -309,7 +307,7 @@
               "RelativeDocumentMoniker": "wwwroot\\js\\main.js",
               "ToolTip": "D:\\Hudson\\HudsonApp\\wwwroot\\js\\main.js",
               "RelativeToolTip": "wwwroot\\js\\main.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-01-28T15:51:06.913Z",
               "EditorCaption": ""
