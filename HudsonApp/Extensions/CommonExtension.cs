@@ -1,19 +1,18 @@
 ﻿using System.ComponentModel;
 
-namespace HudsonApp.Extensions
+namespace HudsonApp.Extensions;
+
+public static class CommonExtension
 {
-    public static class HtmlHelperExtensions
+    public static string GetEnumDescription(this Enum value)
     {
-        public static string GetEnumDescription(this Enum value)
+        var fi = value.GetType().GetField(value.ToString());
+
+        if (fi?.GetCustomAttributes(typeof(DescriptionAttribute), false) is DescriptionAttribute[] attributes && attributes.Any())
         {
-            var fi = value.GetType().GetField(value.ToString());
-
-            if (fi?.GetCustomAttributes(typeof(DescriptionAttribute), false) is DescriptionAttribute[] attributes && attributes.Any())
-            {
-                return attributes.First().Description;
-            }
-
-            return value.ToString();
+            return attributes.First().Description;
         }
+
+        return value.ToString();
     }
 }

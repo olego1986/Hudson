@@ -1,12 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using HudsonApp.Enums;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace HudsonApp.Models
 {
-    public class SocialMediaViewModel
+    public class SocialMediaViewModel(bool onlyMessenger = false)
     {
+        public bool OnlyMessenger { get; set; } = onlyMessenger;
+
         public string ViberAddress { get; set; } = "viber://chat?number=+380960909100";
+        public string WhatsAppAddress { get; set; } = "https://wa.me/+380960909100";
         public string TelegramAddress { get; set; } = "https://t.me/+380960909100";
         public string InstagramAddress { get; set; } = "https://www.instagram.com/ctohudson/";
         public string FacebookAddress { get; set; } = "https://www.facebook.com/profile.php?id=61572012665056";

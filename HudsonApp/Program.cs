@@ -1,21 +1,28 @@
+using Hudson.DB;
+using Hudson.DB.Repository;
+using Hudson.DB.Repository.Interface;
 using HudsonApp.Interfaces;
-using Microsoft.AspNetCore.Builder;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
 using RestEase.HttpClientFactory;
-using static System.Net.WebRequestMethods;
+using SQLitePCL;
 
 namespace HudsonApp
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            await DbInit();
+
+            builder.Services.AddSingleton<IServiceCategoryRepository, ServiceCategoryRepository>();
+
             AddExternalApiOptions(builder);
 
             var app = builder.Build();
@@ -63,6 +70,14 @@ namespace HudsonApp
             });
 
             app.Run();
+        }
+
+        private static async Task DbInit()
+        {
+            Batteries.Init();
+
+            await using var db = new AppDbContext();
+            await db.Database.EnsureCreatedAsync(CancellationToken.None);
         }
 
         public static void AddExternalApiOptions(WebApplicationBuilder builder)

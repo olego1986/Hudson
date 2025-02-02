@@ -1,12 +1,33 @@
-﻿@model dynamic
+﻿@model SocialMediaViewModel
 
 @{
     ViewBag.Title = "Про нас";
     Layout = "_Layout";
 }
 
-<h5>Про нас</h5>
-<h6>У нас працюють спеціалісти з багаторічним досвідом</h6>
+<h4>Про нас</h4>
+<h5>У нас працюють спеціалісти з багаторічним досвідом</h5>
+<br />
+<h5>Зв'язатися з нами можна за допомогою телефону:</h5>
+<h5><a href="tel:+380675072626">+38(067)-507-2626</a></h5>
+<h5><a href="tel:+380960909100">+38(096)-090-9100</a></h5>
+<br />
+
+<div class="d-flex justify-content-start">
+    <div class="align-content-center pe-2">
+        <h5>або месенджерів:</h5>
+    </div>
+    <div id="socialmediaId">
+        @await Html.PartialAsync("~/Views/Home/_socialMedia.cshtml", Model)
+    </div>
+</div>
+<br />
+<div>
+    <h5>Наша адреса:</h5>
+    <h6>м.Київ, Святослава Хороброго 18.Б</h6>
+</div>
+<br />
+<h5>Нас можете знайти на карті:</h5>
 <div id="locationWrap">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1093.2955948680167!2d30.45263564018179!3d50.410059770222794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c99b74af4c25%3A0x4f24cfaf7112dfb0!2z0KHQotCeIEh1ZHNvbiBHYXJhZ2U!5e1!3m2!1suk!2sua!4v1738153680714!5m2!1suk!2sua" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

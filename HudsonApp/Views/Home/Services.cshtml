@@ -4,32 +4,41 @@
 @{
     ViewBag.Title = "Послуги";
     Layout = "_Layout";
+    int indexCategory = 0;
 }
 
 <h2>@ViewBag.Title</h2>
-
+<h5>Наші механіки із задоволенням можуть запропонувати Вам наступні послуги:</h5>
 <div class="accordion" id="accordionExample">
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Діагностика
-            </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                <ul>
-                    <li>Повна діагностика авто</li>
-                    <li>Діагностика ходової</li>
-                    <li>Діагностика кузова</li>
-                    <li>Діагностика електрониих блоків управління (ЕБУ)</li>
-                </ul>
+    @foreach(var category in Model.CategoryItems)
+    {
+        indexCategory++;
+        string targetName = $"collapse{indexCategory}";
+        string showClass = category.IsDefault ? "show" : string.Empty;
+        string areaExpanded = category.IsDefault.ToString();
+        string collapsedClass = category.IsDefault ? string.Empty : "collapsed";
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button @collapsedClass" type="button" data-bs-toggle="collapse" data-bs-target="#@targetName" aria-expanded="@areaExpanded" aria-controls="@targetName">
+                    @category.Value
+                </button>
+            </h2>
+            <div id="@targetName" class="accordion-collapse collapse @showClass" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        @foreach (var workItem in category.ServiceItemWorks)
+                        {
+                            <li>@workItem.Value":"@workItem.Amount</li>
+                        }
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-primary callback-btn" data-bs-toggle="modal" data-bs-target="#callbackModal" callbackType="@CallbackType.Diagnostic">
+                    @category.Description
+                </button>
             </div>
-            <button type="button" class="btn btn-primary callback-btn" data-bs-toggle="modal" data-bs-target="#callbackModal" callbackType="@CallbackType.Diagnostic">
-                Запис на діагностику
-            </button>
         </div>
-    </div>
-    <div class="accordion-item">
+    }
+    @* <div class="accordion-item">
         <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 ТО автомобіля
@@ -109,7 +118,7 @@
                 Запис на додактове встановлення
             </button>
         </div>
-    </div>
+    </div> *@
 </div>
 
 <div id="callbackId">

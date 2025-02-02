@@ -52,13 +52,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HudsonApp.ks5wuk0qje.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VBNKERabdnV37TphMDywRgV6FVx7itisDK9a8rZIyCY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"932"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VBNKERabdnV37TphMDywRgV6FVx7itisDK9a8rZIyCY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 15:22:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"932"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VBNKERabdnV37TphMDywRgV6FVx7itisDK9a8rZIyCY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Feb 2025 23:00:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HudsonApp/HudsonApp.ks5wuk0qje.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HudsonApp.ks5wuk0qje.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ks5wuk0qje"},{"Name":"integrity","Value":"sha256-VBNKERabdnV37TphMDywRgV6FVx7itisDK9a8rZIyCY="},{"Name":"label","Value":"_content/HudsonApp/HudsonApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"932"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VBNKERabdnV37TphMDywRgV6FVx7itisDK9a8rZIyCY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 15:22:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"932"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VBNKERabdnV37TphMDywRgV6FVx7itisDK9a8rZIyCY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Feb 2025 23:00:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HudsonApp/images/hudson_logo.ele3fl702l.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\hudson_logo.ico'))</AssetFile>
